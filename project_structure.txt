@@ -1,0 +1,70 @@
+This is the default project structure and does not reflect any changes made after downloading/cloning.
+
+.
+├── Dockerfile
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── project_structure.txt
+├── README.md
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── yourname
+│   │   │           └── CRUD_TEMPLATE
+│   │   │               ├── config
+│   │   │               │   └── SomeConfig.java
+│   │   │               ├── controller
+│   │   │               │   └── SomeController.java
+│   │   │               ├── MainApplication.java
+│   │   │               ├── model
+│   │   │               │   └── SomeModel.java
+│   │   │               ├── repository
+│   │   │               │   └── SomeRepository.java
+│   │   │               └── service
+│   │   │                   └── SomeService.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── static
+│   │           ├── index.html
+│   │           ├── script.js
+│   │           └── style.css
+│   └── test
+│       └── java
+│           └── com
+│               └── yourname
+│                   └── CRUD_TEMPLATE
+│                       └── SomeTest.java
+└── target
+    ├── classes
+    │   ├── application.properties
+    │   ├── com
+    │   │   └── yourname
+    │   │       └── CRUD_TEMPLATE
+    │   │           ├── config
+    │   │           │   └── SomeConfig.class
+    │   │           ├── controller
+    │   │           │   └── SomeController.class
+    │   │           ├── MainApplication.class
+    │   │           ├── model
+    │   │           │   └── SomeModel.class
+    │   │           ├── repository
+    │   │           │   └── SomeRepository.class
+    │   │           └── service
+    │   │               └── SomeService.class
+    │   └── static
+    │       ├── index.html
+    │       ├── script.js
+    │       └── style.css
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    └── test-classes
+        └── com
+            └── yourname
+                └── CRUD_TEMPLATE
+                    └── SomeTest.class
+
+38 directories, 28 files
